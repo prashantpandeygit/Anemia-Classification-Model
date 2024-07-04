@@ -23,7 +23,7 @@ page_bg_img = '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title('Anemia Classification')
 scaler_model = pickle.load(open('models/scaler.pkl', 'rb'))
-logistic_model = pickle.load(open('models/Logistic.pkl', 'rb'))
+logistic_model = pickle.load(open('models/logistic.pkl', 'rb'))
 
 RedPixel = st.slider('Input Value For Percent Of Red Pixel: ',0.00,100.00,43.14)
 GreenPixel = st.slider('Input Value For Percent Of Green Pixel: ',0.00,100.00,30.16)
