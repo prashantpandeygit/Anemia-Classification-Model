@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 import pickle
 
+app = appplicaiton
+
 page_bg_img = '''
 <style>
 [data-testid="stAppViewContainer"] {
